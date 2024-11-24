@@ -41,7 +41,7 @@ class Bill_App:
         self.tax_other = StringVar()
 
         bg_color = "green"
-        bg_color = "dark blue"
+        bg_color = "black"
         fg_color = "white"
         lbl_color = 'white'
         #Title of App
@@ -364,3 +364,6 @@ class Bill_App:
 root = Tk()
 object = Bill_App(root)
 root.mainloop()
+
+
+          
